@@ -11,9 +11,6 @@ go_test(
     name = "day1_test",
     size = "small",
     srcs = ["solution_test.go"],
-    data = [
-        "inputs/input1.txt",
-        "inputs/input2.txt",
-    ],
+    data = glob(["testdata/**"]),
     embed = [":day1"],
 )

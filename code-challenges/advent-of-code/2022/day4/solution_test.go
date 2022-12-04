@@ -12,11 +12,11 @@ func TestPar1(t *testing.T) {
 		want  int
 	}{
 		"sample input 1": {
-			input: "inputs/input1.txt",
+			input: "testdata/input1.txt",
 			want:  2,
 		},
 		"sample input 2": {
-			input: "inputs/input2.txt",
+			input: "testdata/input2.txt",
 			want:  595,
 		},
 	}
@@ -46,11 +46,11 @@ func TestPart2(t *testing.T) {
 		want  int
 	}{
 		"sample input 1": {
-			input: "inputs/input1.txt",
+			input: "testdata/input1.txt",
 			want:  4,
 		},
 		"sample input 2": {
-			input: "inputs/input2.txt",
+			input: "testdata/input2.txt",
 			want:  952,
 		},
 	}

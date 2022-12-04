@@ -2,3 +2,6 @@ build --enable_platform_specific_config
 
 common --experimental_enable_bzlmod
 sync --experimental_repository_resolved_file=resolved.bzl
+
+test --test_output=all
+test --test_verbose_timeout_warnings

@@ -2,7 +2,6 @@ package day5
 
 import (
 	"io/ioutil"
-	"log"
 	"math"
 	"regexp"
 	"strconv"
@@ -177,13 +176,11 @@ func part2(input string) (string, error) {
 	}
 
 	for i := instructionStartFrom; i < len(lines); i++ {
-		log.Println(stacks)
 		stacks, err = executeInstruction9001(lines[i], stacks)
 		if err != nil {
 			return "", err
 		}
 	}
-	log.Println(stacks)
 
 	return peekTopOfAllStacks(stacks), nil
 }

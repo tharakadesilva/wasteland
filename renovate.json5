@@ -1,0 +1,12 @@
+{
+  $schema: 'https://docs.renovatebot.com/renovate-schema.json',
+  assignees: [
+    'tharakadesilva',
+  ],
+  extends: [
+    'config:best-practices',
+    ':automergeAll',
+    ':automergePr',
+    'npm:unpublishSafe',
+  ],
+}

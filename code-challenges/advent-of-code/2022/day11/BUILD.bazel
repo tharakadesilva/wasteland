@@ -1,16 +1,15 @@
 load("@rules_go//go:def.bzl", "go_library", "go_test")
 
 go_library(
-    name = "day8",
+    name = "day11",
     srcs = ["solution.go"],
-    importpath = "github.com/tharakadesilva/public/code-challenges/advent-of-code/2022/day8",
+    importpath = "github.com/tharakadesilva/wasteland/code-challenges/advent-of-code/2022/day11",
     visibility = ["//visibility:public"],
 )
 
 go_test(
-    name = "day8_test",
-    size = "small",
+    name = "day11_test",
     srcs = ["solution_test.go"],
     data = glob(["testdata/**"]),
-    embed = [":day8"],
+    embed = [":day11"],
 )

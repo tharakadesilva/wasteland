@@ -1,0 +1,34 @@
+load("@aspect_rules_ts//ts:defs.bzl", "ts_project")
+load("@npm//javascript/web/50-projects-in-50-days:eslint/package_json.bzl", eslint_bin = "bin")
+
+SRCS = [
+    "hello.ts",
+]
+
+ts_project(
+    name = "api",
+    srcs = SRCS,
+    declaration = True,
+    resolve_json_module = True,
+    transpiler = "tsc",
+    tsconfig = "//javascript/web/50-projects-in-50-days:tsconfig",
+    visibility = ["//javascript/web/50-projects-in-50-days/pages:__subpackages__"],
+    deps = ["//javascript/web/50-projects-in-50-days:node_modules/next"],
+)
+
+eslint_bin.eslint_test(
+    name = "eslint_test",
+    args = [
+        "--config $(location //javascript/web/50-projects-in-50-days:eslintrc)",
+    ] + ["{}/{}".format(
+        package_name(),
+        s,
+    ) for s in SRCS],
+    data = SRCS + [
+        "//javascript/web/50-projects-in-50-days:eslintrc",
+        "//javascript/web/50-projects-in-50-days:node_modules/@next/eslint-plugin-next",
+        "//javascript/web/50-projects-in-50-days:node_modules/eslint-config-next",
+        "//javascript/web/50-projects-in-50-days:node_modules/next",
+    ],
+    tags = ["lint"],
+)

@@ -1,3 +1,4 @@
 .aspect/bazelrc/user.bazelrc
 .ijwb
 bazel-*
+node_modules

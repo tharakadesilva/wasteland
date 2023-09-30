@@ -27,8 +27,8 @@ importers:
         version: 18.2.0(react@18.2.0)
     devDependencies:
       '@bazel/ibazel':
-        specifier: 0.16.2
-        version: 0.16.2
+        specifier: 0.23.7
+        version: 0.23.7
       '@testing-library/jest-dom':
         specifier: 4.2.4
         version: 4.2.4
@@ -407,8 +407,8 @@ packages:
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
 
-  /@bazel/ibazel@0.16.2:
-    resolution: {integrity: sha512-KgqAWMH0emL6f3xH6nqyTryoBMqlJ627LBIe9PT1PRRQPz2FtHib3FIHJPukp1slzF3hJYZvdiVwgPnHbaSOOA==}
+  /@bazel/ibazel@0.23.7:
+    resolution: {integrity: sha512-yXoEXfRXrrnr+3xz0nrL9N90A+SVInZzvReQqCwWxbFhRuEWawf1Nm5NCpOw+STwzH/N1Rbc+7McXIGaAVRi8g==}
     hasBin: true
     dev: true
 

@@ -6,6 +6,6 @@
     "is-odd": "3.x.x"
   },
   "devDependencies": {
-    "@types/is-odd": "3.x.x"
+    "@types/is-odd": "3.0.2"
   }
 }

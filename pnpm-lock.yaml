@@ -79,8 +79,8 @@ importers:
         version: 3.0.1
     devDependencies:
       '@types/is-odd':
-        specifier: 3.0.2
-        version: 3.0.2
+        specifier: 3.0.3
+        version: 3.0.3
 
 packages:
 
@@ -1002,8 +1002,8 @@ packages:
     resolution: {integrity: sha512-8FbDpWHrWEiXXCuuwkuPT2p4tHr7fhOR2STGdSyQ0ljlqJT7sIqtHSRDXFSLTHqtizXmvThht0Hx3+2+7MAewg==}
     dev: true
 
-  /@types/is-odd@3.0.2:
-    resolution: {integrity: sha512-a/mE50FokBkPY86oocj/oorgDaYjT+l2EGSVLwbAUFwjOpFFDlbqHW5I9FS0cISLxmuDRr1J26znAy88UkHUbg==}
+  /@types/is-odd@3.0.3:
+    resolution: {integrity: sha512-YdKKQ4CTGEfvdO+MWIPj/DLA3RZMJ9yOJOyLmq0nmN2FrKg6WQ5zynhlmjP7vnfYBTHNp/E9BJmBDsvw0/on/A==}
     dev: true
 
   /@types/istanbul-lib-coverage@2.0.4:

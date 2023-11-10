@@ -36,8 +36,8 @@ importers:
         specifier: 14.0.0
         version: 14.0.0(react-dom@18.2.0)(react@18.2.0)
       '@types/is-even':
-        specifier: 1.0.1
-        version: 1.0.1
+        specifier: 1.0.2
+        version: 1.0.2
       '@types/jest':
         specifier: 29.5.7
         version: 29.5.7
@@ -998,8 +998,8 @@ packages:
       '@types/node': 20.8.10
     dev: true
 
-  /@types/is-even@1.0.1:
-    resolution: {integrity: sha512-8FbDpWHrWEiXXCuuwkuPT2p4tHr7fhOR2STGdSyQ0ljlqJT7sIqtHSRDXFSLTHqtizXmvThht0Hx3+2+7MAewg==}
+  /@types/is-even@1.0.2:
+    resolution: {integrity: sha512-qXDiw1zrRSrExwuJHRvxr5eGANlWscPwvQw3xURyax0GkY+fSwwei2uy0ReJBF2N0EeniUr+h2iD9e/KQNroaQ==}
     dev: true
 
   /@types/is-odd@3.0.3:

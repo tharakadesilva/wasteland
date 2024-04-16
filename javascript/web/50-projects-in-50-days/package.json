@@ -19,7 +19,7 @@
   "devDependencies": {
     "@bazel/ibazel": "0.25.0",
     "@testing-library/jest-dom": "4.2.4",
-    "@testing-library/react": "15.0.1",
+    "@testing-library/react": "15.0.2",
     "@types/is-even": "1.0.2",
     "@types/jest": "29.5.12",
     "@types/node": "20.12.7",

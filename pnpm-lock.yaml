@@ -18,13 +18,13 @@ importers:
         version: 1.0.0
       next:
         specifier: 13.0.5
-        version: 13.0.5(@babel/core@7.23.0)(react-dom@18.3.0)(react@18.3.0)
+        version: 13.0.5(@babel/core@7.23.0)(react-dom@18.3.1)(react@18.3.1)
       react:
-        specifier: 18.3.0
-        version: 18.3.0
+        specifier: 18.3.1
+        version: 18.3.1
       react-dom:
-        specifier: 18.3.0
-        version: 18.3.0(react@18.3.0)
+        specifier: 18.3.1
+        version: 18.3.1(react@18.3.1)
     devDependencies:
       '@bazel/ibazel':
         specifier: 0.25.0
@@ -34,7 +34,7 @@ importers:
         version: 4.2.4
       '@testing-library/react':
         specifier: 15.0.5
-        version: 15.0.5(react-dom@18.3.0)(react@18.3.0)
+        version: 15.0.5(react-dom@18.3.1)(react@18.3.1)
       '@types/is-even':
         specifier: 1.0.2
         version: 1.0.2
@@ -45,8 +45,8 @@ importers:
         specifier: 20.12.7
         version: 20.12.7
       '@types/react':
-        specifier: 18.3.0
-        version: 18.3.0
+        specifier: 18.3.1
+        version: 18.3.1
       '@types/react-dom':
         specifier: 18.3.0
         version: 18.3.0
@@ -964,7 +964,7 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/react@15.0.5(react-dom@18.3.0)(react@18.3.0):
+  /@testing-library/react@15.0.5(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-ttodVWYA2i2w4hRa6krKrmS1vKxAEkwDz34y+CwbcrbZUxFzUYN3a5xZyFKo+K6LBseCRCUkwcjATpaNn/UsIA==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -974,8 +974,8 @@ packages:
       '@babel/runtime': 7.23.1
       '@testing-library/dom': 10.0.0
       '@types/react-dom': 18.3.0
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
     dev: true
 
   /@tootallnate/once@2.0.0:
@@ -1085,11 +1085,11 @@ packages:
   /@types/react-dom@18.3.0:
     resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
     dependencies:
-      '@types/react': 18.3.0
+      '@types/react': 18.3.1
     dev: true
 
-  /@types/react@18.3.0:
-    resolution: {integrity: sha512-DiUcKjzE6soLyln8NNZmyhcQjVv+WsUIFSqetMN0p8927OztKT4VTfFTqsbAi5oAGIcgOmOajlfBqyptDDjZRw==}
+  /@types/react@18.3.1:
+    resolution: {integrity: sha512-V0kuGBX3+prX+DQ/7r2qsv1NsdfnCLnTgnRJ1pYnxykBhGMz+qj+box5lq7XsO5mtZsBqpjwwTu/7wszPfMBcw==}
     dependencies:
       '@types/prop-types': 15.7.7
       csstype: 3.1.2
@@ -3732,7 +3732,7 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next@13.0.5(@babel/core@7.23.0)(react-dom@18.3.0)(react@18.3.0):
+  /next@13.0.5(@babel/core@7.23.0)(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-awpc3DkphyKydwCotcBnuKwh6hMqkT5xdiBK4OatJtOZurDPBYLP62jtM2be/4OunpmwIbsS0Eyv+ZGU97ciEg==}
     engines: {node: '>=14.6.0'}
     hasBin: true
@@ -3754,9 +3754,9 @@ packages:
       '@swc/helpers': 0.4.14
       caniuse-lite: 1.0.30001541
       postcss: 8.4.14
-      react: 18.3.0
-      react-dom: 18.3.0(react@18.3.0)
-      styled-jsx: 5.1.0(@babel/core@7.23.0)(react@18.3.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      styled-jsx: 5.1.0(@babel/core@7.23.0)(react@18.3.1)
     optionalDependencies:
       '@next/swc-android-arm-eabi': 13.0.5
       '@next/swc-android-arm64': 13.0.5
@@ -4078,13 +4078,13 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
 
-  /react-dom@18.3.0(react@18.3.0):
-    resolution: {integrity: sha512-zaKdLBftQJnvb7FtDIpZtsAIb2MZU087RM8bRDZU8LVCCFYjPTsDZJNFUWPcVz3HFSN1n/caxi0ca4B/aaVQGQ==}
+  /react-dom@18.3.1(react@18.3.1):
+    resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
     peerDependencies:
-      react: ^18.3.0
+      react: ^18.3.1
     dependencies:
       loose-envify: 1.4.0
-      react: 18.3.0
+      react: 18.3.1
       scheduler: 0.23.2
 
   /react-is@16.13.1:
@@ -4099,8 +4099,8 @@ packages:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
     dev: true
 
-  /react@18.3.0:
-    resolution: {integrity: sha512-RPutkJftSAldDibyrjuku7q11d3oy6wKOyPe5K1HA/HwwrXcEqBdHsLypkC2FFYjP7bPUa6gbzSBhw4sY2JcDg==}
+  /react@18.3.1:
+    resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
@@ -4450,7 +4450,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-jsx@5.1.0(@babel/core@7.23.0)(react@18.3.0):
+  /styled-jsx@5.1.0(@babel/core@7.23.0)(react@18.3.1):
     resolution: {integrity: sha512-/iHaRJt9U7T+5tp6TRelLnqBqiaIT0HsO0+vgyj8hK2KUk7aejFqRrumqPUlAqDwAj8IbS/1hk3IhBAAK/FCUQ==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -4465,7 +4465,7 @@ packages:
     dependencies:
       '@babel/core': 7.23.0
       client-only: 0.0.1
-      react: 18.3.0
+      react: 18.3.1
     dev: false
 
   /supports-color@5.5.0:
